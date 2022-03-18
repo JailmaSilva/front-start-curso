@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2? family= Roboto:ital,wght@0,300;1,300 & display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.bold {
+font-weight: bold;
+}
+h2, h1, h6 { 
+    color: blue;
+}
+#my-title {
+    font-size: 2rem;
+}
+
+p {
+    border: 1px solid red;
+    width: 200px;
+    height: 200px;
+}
+span {
+    border: 1px solid blue;
+}
+a{
+    border: 1px solid blue;
+}
+div {
+    border: 1px solid green-;
+}
+
+/*O rem é relativo ao body /*
