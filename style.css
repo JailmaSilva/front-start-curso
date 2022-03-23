@@ -2,36 +2,30 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    position: relative;
 }
 
-.bold {
-font-weight: bold;
-}
-h2, h1, h6 { 
-    color: blue;
-}
-#my-title {
-    font-size: 2rem;
+
+.container{
+    background-color: pink;
+    position: relative;
 }
 #texto1 {
+    width: 150px;
+    height: 150px;
     background-color: grey;
+    box-sizing: border-box;
+    position: absolute;
 }
 #texto2{
     background-color: red;
+    width: 150px;
+    height: 150px;
+    box-sizing: border-box;
+    position: absolute;
 }
-p {
-    border: 1px solid red;
-    width: 200px;
-    height: 200px;
-}
-span {
-    border: 1px solid blue;
-}
-a{
-    border: 1px solid blue;
-}
-div {
-    border: 1px solid green-;
+#teste {
+    z-index: 2;
 }
 
 /*O rem é relativo ao body /*
